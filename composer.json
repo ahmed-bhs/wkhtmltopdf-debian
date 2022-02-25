@@ -1,0 +1,25 @@
+{
+    "name": "ahmedbhs/wkhtmltopdf-amd64",
+    "description": "wkhtmltopdf and wkhtmltoimage linux binaries - Convert HTML to PDF or IMAGE using Webkit (QtWebKit)",
+    "keywords": ["htmltox", "htmltopdf", "pdf", "thumbnail", "snapshot", "convert", "binary"],
+    "license": "LGPL-3.0-only",
+    "homepage": "http://wkhtmltopdf.org/",
+    "authors": [
+        {
+            "name": "Ahmed EBEN HASSINE",
+            "email": "ahmedbhs123@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "bin": [
+        "bin/wkhtmltopdf-buster-amd64",
+        "bin/wkhtmltopdf-stretch-amd64"
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Wkhtmltox\\": ""
+        }
+    }
+}
